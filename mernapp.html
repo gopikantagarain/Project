@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MERN Notes App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">MERN Notes App</h1>
+    <button id="add-note-btn" class="btn">Add Note</button>
+  </header>
+
+  <div id="note-list" class="note-list"></div>
+
+  <div id="note-editor" class="note-editor">
+    <input type="text" id="note-title" placeholder="Enter note title" class="note-title">
+    <textarea id="note-content" placeholder="Enter note content" class="note-content"></textarea>
+    <button id="save-note-btn" class="btn">Save Note</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
